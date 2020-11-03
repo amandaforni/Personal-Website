@@ -1,0 +1,118 @@
+div {
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+    text-align: center; 
+    font-family: 'PT Serif', serif;
+    overflow:hidden;
+  }
+
+h1 {
+    background-color: #F5F5F5;
+    padding-top: 50px;
+    max-width: 100%;
+    font-size: 50px;
+    font-style: inherit;
+    margin: auto;
+    color: #53917E;
+}
+
+h2 {
+    background-color: #F5F5F5;
+    padding-top: 10px;
+    max-width: 100%;
+    font-size: 30px;
+    margin: auto;
+    color: #63535B;
+}
+
+body{
+    background-color: #F5F5F5;
+    max-width: 100%;
+    margin: auto;
+    color: #63535B;
+}
+
+
+#links a{
+    text-decoration: none;
+    background-color: #F5F5F5;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    color: #B1B695;
+    font-size: 25px;
+    text-transform: uppercase;
+    float: right;
+}
+
+a:visited{
+    color: #B1B695;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+#picture{    /*So the # addresses a certain element*/
+    position:left;
+    max-width: auto;
+    height: 150%;
+    float: left;
+    display: block;
+    padding: 0px; 
+    border-top: 5px solid #6D1A36;  
+    border-bottom: 5px solid #6D1A36;  
+}
+#linkedin, #twitter{
+    width:20px;
+    height:20px;
+}
+
+#linkedin:hover, #twitter:hover {
+    transition: 0.2s;
+    opacity: 50%;
+}
+
+#headshot{
+    border:4px solid white;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100%;
+  }
+
+  
+#social a{
+    background-color: #6D1A36;
+    float:none;
+}
+
+#headshot {
+    border-radius: 50%;
+  }
+
+#animimage{
+    width: 300px;
+    height:auto;
+    float:left;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+  
+#content-wrap {
+    padding-bottom: 30px;    /* Footer height */
+ }
+
+footer{
+    position: absolute;
+    background-color: #6D1A36;
+    min-width: 100%;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 25px;
+    bottom: 0;
+
+}
+
